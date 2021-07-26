@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <title>Doping in Professional Bicycle Racing</title>
+</head>
+<body>
+    
+    <svg id='canvas'>
+        <text id='title' x='200' y='30'>Doping in Professional Bicycle Racing</text>
+    </svg>
+
+    <!-- I can see a legend containing descriptive text that has id="legend". -->
+    <div id="legend">
+        Year (x) vs Time (y)<br />
+        Blue = Doping Allegation | Green = No Doping Allegation
+    </div>
+
+    <!-- I can mouse over an area and see a tooltip with a corresponding id="tooltip" which displays more information about the area. -->
+    <div id="tooltip"></div>
+
+</body>
+<script src="index.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 42, 104);
+}
+
+svg {
+    background-color: silver;
+}
+
+.dot:hover{
+    fill: rgb(253, 249, 0);
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    margin-top: 15px;
+    color: rgb(189, 188, 136);
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#legend{
+    margin-top: 25px;
+    color: rgb(145, 147, 168);
+    font-size: 22px;
+    text-align: center;
+}
+
+#title{
+    font-size: 28px;
+}
