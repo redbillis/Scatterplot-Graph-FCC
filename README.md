@@ -1,5 +1,7 @@
 <h1>Scatterplot Graph</h1>
 
+Link to the page: https://redbillis.github.io/Scatterplot-Graph-FCC/
+
 <h3>Visualizing Data with a Scatterplot Graph for the Data Visualization Certification from FreeCodeCamp</h3>
 
 <h4>Visualize Data with a Scatterplot Graph</h4>
